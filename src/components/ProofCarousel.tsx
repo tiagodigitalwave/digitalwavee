@@ -7,6 +7,11 @@ const images = [
   "/images/proof4.png",
   "/images/proof5.png",
   "/images/proof6.png",
+  "/images/proof7.png",
+  "/images/proof8.png",
+  "/images/proof9.png",
+  "/images/proof10.png",
+  "/images/proof11.png",
 ];
 
 const ProofCarousel = () => {
