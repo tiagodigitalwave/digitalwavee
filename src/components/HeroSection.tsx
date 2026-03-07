@@ -19,7 +19,7 @@ const HeroSection = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <a
-            href="https://www.youtube.com/watch?v=zBvz_SxXv9k"
+            href="https://youtu.be/zBvz_SxXv9k?si=N0fbPa-w-DEVmWbp"
             target="_blank"
             rel="noopener noreferrer"
             className="w-16 h-16 bg-foreground/80 rounded-full flex items-center justify-center hover:bg-foreground transition-colors"
