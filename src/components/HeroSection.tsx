@@ -1,8 +1,4 @@
 const HeroSection = () => {
-  const scrollToForm = () => {
-    document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-4 py-20 bg-card">
       <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-center text-foreground max-w-4xl leading-tight">
@@ -35,15 +31,17 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <button
-        onClick={scrollToForm}
-        className="mt-8 gradient-purple text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity"
+      <a
+        href="https://calendly.com/hello-tiagodigitalwave/30min"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mt-8 gradient-purple text-primary-foreground px-8 py-4 rounded-lg text-lg font-semibold flex items-center gap-2 hover:opacity-90 transition-opacity animate-shake"
       >
         Quero implementar este sistema no meu negócio
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
         </svg>
-      </button>
+      </a>
     </section>
   );
 };
