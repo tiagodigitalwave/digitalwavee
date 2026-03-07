@@ -1,8 +1,4 @@
 const HeroSection = () => {
-  const scrollToForm = () => {
-    document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <section className="min-h-screen flex flex-col items-center justify-center px-4 py-20 bg-card">
       <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-center text-foreground max-w-4xl leading-tight">
